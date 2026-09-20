@@ -1,0 +1,37 @@
+skill,category
+python,programming
+java,programming
+c++,programming
+c#,programming
+sql,databases
+mongodb,databases
+postgresql,databases
+mysql,databases
+pandas,data handling
+numpy,data handling
+excel,data handling
+power bi,data visualization
+tableau,data visualization
+data visualization,data visualization
+machine learning,ml
+scikit-learn,ml
+deep learning,ml
+pytorch,ml
+tensorflow,ml
+statistics,ml
+nlp,ml
+transformers,ml
+hugging face,ml
+spacy,ml
+text processing,ml
+opencv,computer vision
+cnn,computer vision
+yolo,computer vision
+image processing,computer vision
+llm,ai
+rag,ai
+apis,tools
+fastapi,tools
+docker,tools
+git,tools
+github,tools
