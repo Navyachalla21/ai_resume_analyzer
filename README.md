@@ -1,3 +1,9 @@
+## Live Demo
+
+🔗 **[Try the app here](https://ai-resume-analyzer-fhtb.onrender.com/)**
+
+> Note: This is hosted on Render's free tier, so the app may take 30-50 seconds to wake up if it's been inactive.
+
 # AI Resume Analyzer & Job Recommendation System
 
 An NLP-based Streamlit application that analyzes a resume, scores it against real job roles using TF-IDF and cosine similarity, identifies missing skills, and generates a personalized learning roadmap.
@@ -58,16 +64,13 @@ cd ai_resume_analyzer
 python -m venv venv
 venv\Scripts\activate
 
-
 3. Install dependencies:
 
 pip install -r requirements.txt
 
-
 4. Run the application:
 
 streamlit run app.py
-
 
 5. Open the app in your browser (usually at `http://localhost:8501`)
 

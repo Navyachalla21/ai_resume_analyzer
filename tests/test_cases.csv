@@ -1,3 +1,5 @@
 test_id,resume_used,expected_top_role,actual_top_role,match_score,pass_fail,notes
-TC01,Abhiresume.pdf,Data Analyst,Data Analyst,30.4%,PASS,Only 1 skill (excel) detected -- likely resume phrasing not matching skill dictionary keywords exactly
-TC02,Professional_Modern_CV_Resume.pdf,Machine Learning Engineer,Machine Learning Engineer,50.3%,PASS,16 skills detected correctly across programming/databases/ML/tools categories; strong match confirms core pipeline works as intended
+TC01,sample_resume1.pdf,Data Analyst,Data Analyst,30.8%,PASS,Only 1 skill (excel) detected -- resume likely has more skills than the keyword dictionary caught
+TC02,sample_resume2.docx,Data Analyst,Data Analyst,30.8%,PASS,Same resume as TC01 saved in DOCX format -- identical result confirms PDF and DOCX parsers extract text consistently
+TC03,sample_resume3.pdf,AI Engineer,AI Engineer,53.4%,PASS,16 skills detected across programming/databases/ML/tools; strongest match confirms core pipeline works correctly on skill-rich resumes
+TC04,sample_resume4.pdf,Data Analyst,Data Analyst,24.0%,PASS,3 skills detected (python, java, excel); moderate match across a broader skill set
