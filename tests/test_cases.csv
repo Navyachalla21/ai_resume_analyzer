@@ -1,0 +1,3 @@
+test_id,resume_used,expected_top_role,actual_top_role,match_score,pass_fail,notes
+TC01,Abhiresume.pdf,Data Analyst,Data Analyst,30.4%,PASS,Only 1 skill (excel) detected -- likely resume phrasing not matching skill dictionary keywords exactly
+TC02,Professional_Modern_CV_Resume.pdf,Machine Learning Engineer,Machine Learning Engineer,50.3%,PASS,16 skills detected correctly across programming/databases/ML/tools categories; strong match confirms core pipeline works as intended
